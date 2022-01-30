@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pari e dispari</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <h1 id="title">Pari e dispari</h1>
+        <div class="menu-player">
+
+            <div class="selectors-container">
+
+                <select class="btn" name="pari-dispari" id="even-odd">
+                    <option value="0" hidden>Scegli pari o dispari</option>
+                    <option value="Pari">Pari</option>
+                    <option value="Dispari">Dispari</option>
+                </select>
+    
+                <select class="btn" name="numero" id="number-chosen">
+                    <option value="0" hidden>Scegli un numero</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>  
+            </div>
+            
+            <div class="btn-container">
+                <button class="btn" id="start">Avvia</button>
+            </div>
+
+        </div>
+        <div class="menu-result">
+
+            <div class="choices">
+
+                <h3 id="player-choice"></h3>
+                <h3 id="cpu-choice"></h3>
+                
+            </div>
+            
+            <div>
+
+                <h3 id="sum"></h3>
+
+            </div>
+
+            <div>
+
+                <h3 id="result" class="yellow"></h3>
+
+            </div>
+
+            <div>
+
+                <h1 id="winner"></h1>
+                
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
