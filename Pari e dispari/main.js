@@ -48,7 +48,7 @@ console.log(numeroScelto);
 
 // Riporto valore predefinito
 document.getElementById('number-chosen').value = "0";
-// document.getElementById('even-odd').value = "0";
+document.getElementById('even-odd').value = "0";
 
 // Richiamo la funzione che genera un numero casuale da 1 a 5 e l'assegno a numeroCpu
 let numeroCpu = numeroCasuale();
